@@ -3,17 +3,14 @@
 
 ### DB
 Users:
-- username
-- password
-- Todos
+- username -> primary string
+- password -> hashed string
+- tasks: [task id, ...]
+- column1: [task id, ...]
+- column2: [task id, ...]
+- column3: [task id, ...]
 
-Todos:
--
-
-Jobs:
-- job title -> string
-- company -> string
-- remote -> boolean
-- location -> string
-- status -> [apply, interview, reject]
-
+Tasks:
+- id
+- content
+- user id
